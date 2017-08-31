@@ -23,6 +23,20 @@ public class server {
 			PrintWriter out = new PrintWriter(soc.getOutputStream(), true);	
 			
 			String ans = in.readLine();
+			
+			if(ans.equals("Museum")){
+				
+				out.println("Good Job");
+			}else{
+			
+			for(int i = 0; i < 3; i++){
+				
+				out.println("try again");
+			}
+			}
+	
+			
+			
 					
 			
 			
