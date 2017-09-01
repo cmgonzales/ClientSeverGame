@@ -24,9 +24,9 @@ public class server {
 			
 			String ans = in.readLine();
 			
-			if(ans.equals("Museum")){
+			if(ans.equals("museum")){
 				
-				out.println("Good Job");
+				out.println("museum");
 			}else{
 			
 			for(int i = 0; i < 3; i++){

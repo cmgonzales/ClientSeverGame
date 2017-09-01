@@ -14,25 +14,24 @@ public class Client {
         BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
 
         PrintWriter out = new PrintWriter(soc.getOutputStream(), true); 
-        
-        
+      
+ 
         String input = "";
         
         System.out.println("Name a place you visit where you arent allowed to touch anything?");
         
-        for(int i = 0; i < 3; i++){
-        
         input = userInput.readLine();
-        
         out.println(input);
-        
         String response = in.readLine();
-        
-        System.out.println(response);
-        }
-        
+        if (response.equals("museum")){
+        	System.out.println(10);
+        }else{
+            System.out.print("wrong");
         
 	}
-	
 }
+}
+
+	
+	
 
